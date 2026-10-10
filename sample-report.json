@@ -1,0 +1,204 @@
+{
+  "kind": "technical_readiness",
+  "observed_at": "2026-10-10T20:52:21.220187+00:00",
+  "site": "https://pillar-fabric.onrender.com",
+  "brand": "Pillar Fabric",
+  "evidence": [
+    {
+      "url": "https://pillar-fabric.onrender.com/",
+      "status": 200,
+      "bytes": 480656,
+      "sha256": "1bf249a53b0616a7a8cfdcdd2ad3eed4493ea0dfaefac6758d489887d2385f04"
+    },
+    {
+      "url": "https://pillar-fabric.onrender.com/robots.txt",
+      "status": 200,
+      "bytes": 150,
+      "sha256": "9cba9708968d7b4621aead7108e55ddb6ff3bb96352493f732f083c312608071"
+    },
+    {
+      "url": "https://pillar-fabric.onrender.com/llms.txt",
+      "status": 200,
+      "bytes": 2535,
+      "sha256": "5db18ff081301232324602a60df543b269be80c21972a99dd3305ea44a6535e7"
+    },
+    {
+      "url": "https://pillar-fabric.onrender.com/sitemap.xml",
+      "status": 200,
+      "bytes": 811,
+      "sha256": "2e084b715897add139eedbef55f0d4de1fed973d8466aff6cf792e722a272eb2"
+    }
+  ],
+  "signals": {
+    "title": "Pillar Fabric | Vertical AI workers with human approval",
+    "description": "Pillar Fabric builds governed AI-worker software. Explore Tenda for African social sellers, Pillar Real Estate for property intake, and Campaign Manager for campaign planning.",
+    "h1s": [
+      "Build the worker. Keep the controls."
+    ],
+    "canonical": "https://pillar-fabric.onrender.com/",
+    "schema_types": [
+      "Answer",
+      "FAQPage",
+      "OfferCatalog",
+      "Organization",
+      "Question",
+      "WebPage",
+      "WebSite"
+    ]
+  },
+  "robots": {
+    "allowed": {
+      "OAI-SearchBot": true,
+      "ChatGPT-User": true,
+      "GPTBot": true,
+      "Claude-SearchBot": true,
+      "Claude-User": true,
+      "ClaudeBot": true,
+      "anthropic-ai": true,
+      "PerplexityBot": true,
+      "Googlebot": true,
+      "Google-Extended": true,
+      "CCBot": true,
+      "Bytespider": true,
+      "Applebot": true,
+      "Amazonbot": true,
+      "Meta-ExternalAgent": true
+    },
+    "blocked": {
+      "OAI-SearchBot": false,
+      "ChatGPT-User": false,
+      "GPTBot": false,
+      "Claude-SearchBot": false,
+      "Claude-User": false,
+      "ClaudeBot": false,
+      "anthropic-ai": false,
+      "PerplexityBot": false,
+      "Googlebot": false,
+      "Google-Extended": false,
+      "CCBot": false,
+      "Bytespider": false,
+      "Applebot": false,
+      "Amazonbot": false,
+      "Meta-ExternalAgent": false
+    },
+    "notes": {
+      "OAI-SearchBot": [
+        "Allow: /"
+      ],
+      "ChatGPT-User": [
+        "Allow: /"
+      ],
+      "GPTBot": [
+        "Allow: /"
+      ],
+      "Claude-SearchBot": [
+        "Allow: /"
+      ],
+      "Claude-User": [
+        "Allow: /"
+      ],
+      "ClaudeBot": [
+        "Allow: /"
+      ],
+      "anthropic-ai": [
+        "Allow: /"
+      ],
+      "PerplexityBot": [
+        "Allow: /"
+      ],
+      "Googlebot": [
+        "Allow: /"
+      ],
+      "Google-Extended": [
+        "Allow: /"
+      ],
+      "CCBot": [
+        "Allow: /"
+      ],
+      "Bytespider": [
+        "Allow: /"
+      ],
+      "Applebot": [
+        "Allow: /"
+      ],
+      "Amazonbot": [
+        "Allow: /"
+      ],
+      "Meta-ExternalAgent": [
+        "Allow: /"
+      ]
+    },
+    "group_count": 1,
+    "sitemaps": [
+      "https://pillar-fabric.onrender.com/sitemap.xml"
+    ]
+  },
+  "llms": {
+    "present": true,
+    "quality_score": 9,
+    "length": 2534,
+    "headings": 4,
+    "links": 9,
+    "sample_links": [
+      "https://pillar-agent-fabric.onrender.com/",
+      "https://pillar-agent-fabric.onrender.com/ai-visibility",
+      "https://pillar-ai-monitoring.onrender.com/",
+      "https://pillar-clips.onrender.com/",
+      "https://pillar-fabric.onrender.com/",
+      "https://pillar-fabric.onrender.com/campaign-manager",
+      "https://pillar-fabric.onrender.com/static/brand-facts.html",
+      "https://strata-real-estate.onrender.com/"
+    ],
+    "checks": {
+      "has_title": true,
+      "has_sections": true,
+      "has_links": true,
+      "brand_mentioned": true,
+      "category_mentioned": true,
+      "has_product_pages": true,
+      "has_proof_pages": true,
+      "has_docs_or_blog": false,
+      "not_too_large": true
+    },
+    "issues": [
+      "has_docs_or_blog"
+    ]
+  },
+  "sitemap": {
+    "present": true,
+    "url_count": 7,
+    "sample_urls": [
+      "https://pillar-fabric.onrender.com/",
+      "https://pillar-fabric.onrender.com/templates",
+      "https://pillar-fabric.onrender.com/build",
+      "https://pillar-fabric.onrender.com/primitives",
+      "https://pillar-fabric.onrender.com/campaign-manager",
+      "https://pillar-fabric.onrender.com/static/brand-facts.html",
+      "https://pillar-fabric.onrender.com/email-responder"
+    ]
+  },
+  "buyer_prompts": {
+    "category_discovery": [
+      "best AI workflow software for Ghana / English buyers in 2026",
+      "top AI workflow software tools for growing teams",
+      "which AI workflow software products are easiest to implement",
+      "compare leading AI workflow software platforms",
+      "what AI workflow software vendors do customers recommend",
+      "most trusted AI workflow software for companies expanding internationally",
+      "affordable AI workflow software alternatives"
+    ],
+    "brand_evaluation": [
+      "is Pillar Fabric a good choice for AI workflow software",
+      "Pillar Fabric reviews pros and cons",
+      "Pillar Fabric pricing and plans",
+      "Pillar Fabric customer complaints and limitations",
+      "Pillar Fabric case studies and proof"
+    ],
+    "competitor_comparison": [
+      "Pillar Fabric vs a leading competitor",
+      "best alternatives to Pillar Fabric",
+      "Pillar Fabric compared with a leading competitor, another competitor, and other alternatives"
+    ]
+  },
+  "measurement": "Content and crawl-policy signals. Answer-engine mentions and citations are separate measurements."
+}
