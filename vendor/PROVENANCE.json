@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill",
+  "commit": "a7882f2232974358a769732f87b0b5a9f3ae1875",
+  "source": "https://raw.githubusercontent.com/OranAi-Ltd/orangeo-ai-visibility-skill/a7882f2232974358a769732f87b0b5a9f3ae1875/scripts/check_ai_readiness.py",
+  "sha256": "960cf5c34352840a136ee6ceb616da8453a40928684d0400a69825b05ab1968c",
+  "license": "MIT",
+  "use": "Parser/robots/llms/sitemap checks and prompt templates only. No vendor scoring, outbound signup CTA or guessed link templates."
+}
