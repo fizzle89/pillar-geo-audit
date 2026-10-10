@@ -1,0 +1,22 @@
+{
+  "brand": "Pillar Fabric",
+  "responses": [
+    {
+      "engine": "Google AI Overview (browser, signed-in session)",
+      "prompt": "Which AI worker tools help a small team prepare evidence-backed RFP answers?",
+      "observed_at": "2026-10-10T20:55:06.700674+00:00",
+      "brand_mentioned": false,
+      "citation_urls": [
+        "https://autorfp.ai/blog/most-accurate-ai-rfp-software",
+        "https://responsehub.ai/ai-for-rfps/",
+        "https://www.getanchor.ai/articles/rfp-tools-ai-powered-answer-libraries-2026",
+        "https://www.qorusdocs.com/blog/ai-for-rfps-why-not-just-use-chatgpt-or-claude-to-answer-rfps",
+        "https://www.glean.com/perspectives/top-7-ai-tools-for-streamlining-rfp-responses-in-2026"
+      ],
+      "response_sha256": "80ed245378a6eb80387e9fff3d3ec38c5993e6f582e63c5abcea7ea78c29598a"
+    }
+  ],
+  "response_count": 1,
+  "mention_count": 0,
+  "measurement": "String mention counts in supplied responses, not rankings or guaranteed visibility."
+}
