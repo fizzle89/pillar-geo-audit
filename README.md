@@ -1,11 +1,11 @@
-# Pillar GEO Audit
+# Shuttlewright GEO Audit
 
 Check a site's AI crawl policies, page metadata, schema, llms.txt and sitemap. Save the exact HTTP status and content hash behind every check. Python 3.10+, no paid API needed.
 
 ## Run
 
 ```sh
-python3 geo_audit.py --url https://pillar-fabric.onrender.com --brand "Pillar Fabric" --category "AI workflow software"
+python3 geo_audit.py --url https://pillar-fabric.onrender.com --brand "Shuttlewright" --category "AI workflow software"
 python3 -m unittest test_geo -v
 ```
 
@@ -16,22 +16,22 @@ Outputs `report.json` and `evidence.csv`. The scanner uses HTTPS, pins a public 
 Export actual engine responses as JSON Lines with `engine`, `prompt`, `answer`, `observed_at` and optional `citations` (the URLs the engine actually returned). Then run:
 
 ```sh
-python3 geo_audit.py --responses answers.jsonl --brand "Pillar Fabric"
+python3 geo_audit.py --responses answers.jsonl --brand "Shuttlewright"
 ```
 
 This reports literal brand mentions and supplied citation URLs, with response hashes. It does not call answer engines or extract invented citations from model prose. Bring your own response exports; no keys are stored here.
 
 ## Real sample
 
-`sample-report.json` and `sample-evidence.csv` are a real four-request scan of the public Pillar Fabric site, timestamped October 10, 2026. These measure technical signals, not AI rankings. Generated buyer questions are ready to run separately. No mention/share-of-voice figures are claimed from this scan.
+`sample-report.json` and `sample-evidence.csv` are a real four-request scan of the public site under its former name Pillar Fabric, timestamped October 10, 2026. These measure technical signals, not AI rankings. Generated buyer questions are ready to run separately. No mention/share-of-voice figures are claimed from this scan.
 
 ## Hosted product
 
-Pillar Fabric's AI Visibility Audit adds a hosted service to the free tooling. Its product page is https://pillar-agent-fabric.onrender.com/ai-visibility. This release candidate does not yet contain a verified checkout URL. Add the current checkout only after its offer, price and customer delivery are proven. The public scanner can run independently.
+Shuttlewright's AI Visibility Audit adds a hosted service to the free tooling. Its product page is https://pillar-agent-fabric.onrender.com/ai-visibility. This release candidate does not yet contain a verified checkout URL. Add the current checkout only after its offer, price and customer delivery are proven. The public scanner can run independently.
 
 ## License
 
-MIT. The parser component comes from OranGEO at the pinned commit in `vendor/PROVENANCE.json`; its original MIT notice is retained in `vendor/LICENSE`. Pillar's wrapper and tests are independently written. No private hosted product source, accounts, customer data or credentials are included.
+MIT. The parser component comes from OranGEO at the pinned commit in `vendor/PROVENANCE.json`; its original MIT notice is retained in `vendor/LICENSE`. Shuttlewright's wrapper and tests are independently written. No private hosted product source, accounts, customer data or credentials are included.
 
 ## BYOK engine runner
 
